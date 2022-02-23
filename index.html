@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8"/>
+    <title>site 2</title>
+  </head>
+
+  <body>
+
+<div class=conteneur>
+
+   <div class="colonne1" id="slideshow">
+
+      	<div class="container">
+
+      		<div class="slider" onclick="openModal();currentSlide(1)">
+
+      			<figure>
+      				<img src="images/afv1.jpg" alt=""  width="200" class="images"/>
+      			</figure><!--
+
+      			--><figure>
+      				<img src="images/afv2.jpg" alt="" width="200" class="images" />
+      			</figure><!--
+
+      			--><figure>
+      				<img src="images/afv3.jpg" alt="" width="200" class="images"  />
+      			</figure><!--
+
+      			--><figure>
+      				<img src="images/afv4.jpg" alt="" width="200" class="images" />
+      			</figure><!--
+
+            --><figure>
+              <img src="images/afv5.jpg" alt="" width="200"   class="images" />
+            </figure><!--
+
+            --><figure>
+              <img src="images/afv6.jpg" alt="" width="200"   class="images" />
+            </figure><!--
+
+            --><figure>
+              <img src="images/afv7.jpg" alt="" width="200"   class="images" />
+            </figure>
+
+
+      		</div>
+      	</div>
+
+        <div id="myModal" class="modal">
+          <span class="close cursor" onclick="closeModal(1)">&times;</span>
+          <div class="modal-content">
+
+            <div class="lightbox">
+              <div class="numbertext"></div>
+              <img src="images/afv1.jpg" style="width:100%">
+            </div>
+
+            <div class="lightbox">
+              <div class="numbertext"></div>
+              <img src="images/afv2.jpg" style="width:100%">
+            </div>
+
+            <div class="lightbox">
+              <div class="numbertext"></div>
+              <img src="images/afv3.jpg" style="width:100%">
+            </div>
+
+            <div class="lightbox">
+              <div class="numbertext"></div>
+              <img src="images/afv4.jpg" style="width:100%">
+            </div>
+
+            <div class="lightbox">
+              <div class="numbertext"></div>
+              <img src="images/afv5.jpg" style="width:100%">
+            </div>
+
+            <div class="lightbox">
+              <div class="numbertext"></div>
+              <img src="images/afv6.jpg" style="width:100%">
+            </div>
+
+            <div class="lightbox">
+              <div class="numbertext"></div>
+              <img src="images/afv7.jpg" style="width:100%">
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+            <div class="caption-container">
+              <p id="caption"></p>
+            </div>
+        </div>
+        </div>
+
+        Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un imprimeur anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. Il n'a pas fait que survivre cinq siècles, mais s'est aussi adapté à la bureautique informatique, sans que son contenu n'en soit modifié. Il a été popularisé dans les années 1960 grâce à la vente de feuilles Letraset contenant des passages du Lorem Ipsum, et, plus récemment, par son inclusion dans des applications de mise en page de texte, comme Aldus PageMaker.
+
+   </div>
+
+   <div class="colonne2" id="slideshow">
+
+      	<div class="container">
+
+      		<div class="slider" onclick="openModal2();currentSlide()">
+
+      			<figure>
+      				<img src="images/m1.jpg" alt=""  width="200" class="images"/>
+      			</figure><!--
+
+      			--><figure>
+      				<img src="images/m2.jpg" alt="" width="200" class="images" />
+      			</figure><!--
+
+      			--><figure>
+      				<img src="images/m3.jpg" alt="" width="200" class="images"  />
+      			</figure><!--
+
+      			--><figure>
+      				<img src="images/m4.jpg" alt="" width="200" class="images" />
+      			</figure><!--
+
+            --><figure>
+              <img src="images/m5.jpg" alt="" width="200"   class="images" />
+            </figure><!--
+
+            --><figure>
+              <img src="images/m6.jpg" alt="" width="200"   class="images" />
+            </figure><!--
+
+            --><figure>
+              <img src="images/m7.jpg" alt="" width="200"   class="images" />
+            </figure>
+
+
+      		</div>
+      	</div>
+
+        <div id="myModal2" class="modal">
+          <span class="close cursor" onclick="closeModal2(1)">&times;</span>
+          <div class="modal-content">
+
+            <div class="lightbox2">
+              <div class="numbertext"></div>
+              <img src="images/m1.jpg" style="width:100%">
+            </div>
+
+            <div class="lightbox2">
+              <div class="numbertext"></div>
+              <img src="images/m2.jpg" style="width:100%">
+            </div>
+
+            <div class="lightbox2">
+              <div class="numbertext"></div>
+              <img src="images/m3.jpg" style="width:100%">
+            </div>
+
+            <div class="lightbox2">
+              <div class="numbertext"></div>
+              <img src="images/m4.jpg" style="width:100%">
+            </div>
+
+            <div class="lightbox2">
+              <div class="numbertext"></div>
+              <img src="images/m5.jpg" style="width:100%">
+            </div>
+
+            <div class="lightbox2">
+              <div class="numbertext"></div>
+              <img src="images/m6.jpg" style="width:100%">
+            </div>
+
+            <div class="lightbox2">
+              <div class="numbertext"></div>
+              <img src="images/m7.jpg" style="width:100%">
+            </div>
+
+            <a class="prev" onclick="plusSlides2(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides2(1)">&#10095;</a>
+
+            <div class="caption-container">
+              <p id="caption2"></p>
+            </div>
+        </div>
+      </div>
+   </div>
+
+   <div class="colonne3" id="slideshow4">
+
+     <div class="container4">
+
+       <div class="slider4" onclick="openModal3();currentSlide()">
+
+         <figure>
+           <img src="images/bp1.jpg" alt=""  width="200" class="images"/>
+         </figure><!--
+
+         --><figure>
+           <img src="images/bp2.jpg" alt="" width="200" class="images" />
+         </figure><!--
+
+         --><figure>
+           <img src="images/bp3.jpg" alt="" width="200" class="images"  />
+         </figure><!--
+
+         --><figure>
+           <img src="images/bp4.jpg" alt="" width="200" class="images" />
+         </figure>
+
+       </div>
+     </div>
+
+     <div id="myModal3" class="modal">
+       <span class="close cursor" onclick="closeModal3(1)">&times;</span>
+       <div class="modal-content">
+
+         <div class="lightbox3">
+           <div class="numbertext"></div>
+           <img src="images/bp1.jpg" style="width:100%">
+         </div>
+
+         <div class="lightbox3">
+           <div class="numbertext"></div>
+           <img src="images/bp2.jpg" style="width:100%">
+         </div>
+
+         <div class="lightbox3">
+           <div class="numbertext"></div>
+           <img src="images/bp3.jpg" style="width:100%">
+         </div>
+
+         <div class="lightbox3">
+           <div class="numbertext"></div>
+           <img src="images/bp4.jpg" style="width:100%">
+         </div>
+
+         <a class="prev" onclick="plusSlides3(-1)">&#10094;</a>
+         <a class="next" onclick="plusSlides3(1)">&#10095;</a>
+
+         <div class="caption-container">
+           <p id="caption3"></p>
+         </div>
+     </div>
+   </div></div>
+
+   <div class="colonne4" id="slideshow">
+   </div>
+
+   <div class="colonne5" id="slideshow">
+   </div>
+
+   <div class="colonne6" id="slideshow">
+   </div>
+
+   <div class="colonne7" id="slideshow">
+   </div>
+
+
+
+</div>
+
+<script>
+/*litghbox à feu vif*/
+  function openModal2() {
+    document.getElementById("myModal2").style.display = "block";
+  }
+
+  function closeModal2() {
+    document.getElementById("myModal2").style.display = "none";
+  }
+
+  var slideIndexa = 1;
+  showSlides2(slideIndexa);
+
+  function plusSlides2(n) {
+    showSlides2(slideIndexa += n);
+  }
+
+  function currentSlide2(n) {
+    showSlides2(slideIndexa = n);
+  }
+
+  function showSlides2(n) {
+    var z;
+    var slides = document.getElementsByClassName("lightbox2");
+    var dots = document.getElementsByClassName("demo2");
+    var captionText = document.getElementById("caption2");
+    if (n > slides.length) {slideIndexa = 1}
+    if (n < 1) {slideIndexa = slides.length}
+    for (z = 0; z < slides.length; z++) {
+        slides[z].style.display = "none";
+    }
+
+    for (z = 0; z < dots.length; z++) {
+        dots[z].className = dots[z].className.replace(" active", "");
+    }
+    slides[slideIndexa-1].style.display = "block";
+    dots[slideIndexa-1].className += " active";
+    captionText.innerHTML = dots[slideIndexa-1].alt;
+  }
+
+</script>
+
+<script>
+/*lightbox mémoire*/
+  function openModal() {
+    document.getElementById("myModal").style.display = "block";
+  }
+
+  function closeModal() {
+    document.getElementById("myModal").style.display = "none";
+  }
+
+  var slideIndex = 1;
+  showSlides(slideIndex);
+
+  function plusSlides(n) {
+    showSlides(slideIndex += n);
+  }
+
+  function currentSlide(n) {
+    showSlides(slideIndex = n);
+  }
+
+  function showSlides(n) {
+    var i;
+    var slides = document.getElementsByClassName("lightbox");
+    var dots = document.getElementsByClassName("demo");
+    var captionText = document.getElementById("caption");
+    if (n > slides.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
+
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";
+    dots[slideIndex-1].className += " active";
+    captionText.innerHTML = dots[slideIndex-1].alt;
+  }
+
+</script>
+
+<script>
+/*litghbox baton patate*/
+  function openModal3() {
+    document.getElementById("myModal3").style.display = "block";
+  }
+
+  function closeModal3() {
+    document.getElementById("myModal3").style.display = "none";
+  }
+
+  var slideIndexb = 1;
+  showSlides3(slideIndexb);
+
+  function plusSlides3(n) {
+    showSlides3(slideIndexb += n);
+  }
+
+  function currentSlide3(n) {
+    showSlides3(slideIndexb = n);
+  }
+
+  function showSlides3(n) {
+    var e;
+    var slides = document.getElementsByClassName("lightbox3");
+    var dots = document.getElementsByClassName("demo3");
+    var captionText = document.getElementById("caption3");
+    if (n > slides.length) {slideIndexb = 1}
+    if (n < 1) {slideIndexb = slides.length}
+    for (e = 0; e < slides.length; e++) {
+        slides[e].style.display = "none";
+    }
+
+    for (e = 0; e < dots.length; e++) {
+        dots[e].className = dots[e].className.replace(" active", "");
+    }
+    slides[slideIndexb-1].style.display = "block";
+    dots[slideIndexb-1].className += " active";
+    captionText.innerHTML = dots[slideIndexb-1].alt;
+  }
+  </script>
+
+</body>
+
+</html>
