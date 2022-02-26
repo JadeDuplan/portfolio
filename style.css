@@ -3,15 +3,13 @@ body{
 
 .infos{
   position: sticky;
-   position: -webkit-sticky;
     top: 97%;
     z-index: 1;
-   font-size: 20;
+   font-size: 15;
 }
 
 .infos2{
   position: sticky;
-   position: -webkit-sticky;
     top: 0;
     z-index: 1;
    font-size: 15;
@@ -19,24 +17,12 @@ body{
 
 @media screen and (max-width: 500px) {
   .infos {
-    position: sticky; 
-    position: -webkit-sticky;
+    position: sticky;
       top: 95%;
       z-index: 1;
      font-size: 20px;
   }
 }
-
-@media screen and (max-width: 500px) {
-  .infos2 {
-    position: sticky; 
-    position: -webkit-sticky;
-      top: 95%;
-      z-index: 1;
-     font-size: 20px;
-  }
-}
-
 
 .jade{
   font-family: 'Trebuchet MS', sans-serif;
@@ -55,8 +41,8 @@ p{
   margin-left: auto;
   margin-right: auto;
   font-size: 13.5px;
-
 }
+
 
 .images{
 }
@@ -84,6 +70,7 @@ p{
 .conteneur{
   display: flex;
   flex-wrap:wrap;
+
 }
 
 @media screen and (max-width: 500px) {
@@ -93,6 +80,8 @@ p{
 }
 .colonne{
 }
+
+
 
 .colonne1{
   flex:1 1 100px;
