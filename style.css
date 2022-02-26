@@ -151,7 +151,7 @@ lightbox/*pour l'affichage des images en grand quand on clique sur les slideshow
 
           @media screen and (max-width: 500px) {
             .modal {
-              width: 100%;
+              width: 70%;
               margin-top: -125%;
               padding-top: 150px;
             }
