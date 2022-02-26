@@ -111,17 +111,17 @@ lightbox/*pour l'affichage des images en grand quand on clique sur les slideshow
             width: 25%;
           }
 
-          .modal {
+         .modal {
             display: none;
             position: -webkit-sticky;
             position: sticky;
             /*position: absolute;*/
             z-index: 1;
             padding-top: 40px;
-            margin-top: -44%;
+            margin-top: -48%;
             left: 0;
             top: 0;
-            width: 90%;
+            width: 98%;
             overflow: auto;
           }
 
