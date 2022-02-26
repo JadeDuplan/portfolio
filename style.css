@@ -3,6 +3,7 @@ body{
 
 .infos{
   position: sticky;
+   position: -webkit-sticky;
     top: 97%;
     z-index: 1;
    font-size: 20;
@@ -10,6 +11,7 @@ body{
 
 .infos2{
   position: sticky;
+   position: -webkit-sticky;
     top: 0;
     z-index: 1;
    font-size: 15;
@@ -17,12 +19,24 @@ body{
 
 @media screen and (max-width: 500px) {
   .infos {
-    position: sticky;
+    position: sticky; 
+    position: -webkit-sticky;
       top: 95%;
       z-index: 1;
      font-size: 20px;
   }
 }
+
+@media screen and (max-width: 500px) {
+  .infos2 {
+    position: sticky; 
+    position: -webkit-sticky;
+      top: 95%;
+      z-index: 1;
+     font-size: 20px;
+  }
+}
+
 
 .jade{
   font-family: 'Trebuchet MS', sans-serif;
