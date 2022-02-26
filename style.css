@@ -17,11 +17,12 @@ body{
 }
 
 .jade{
-  font-family: 'Trebuchet MS', sans-serif;
+  font-family: 'Segoe UI', sans-serif;
   font-size: 40px;
   margin-top: 0px;
-
+  letter-spacing: -1px;
 }
+
 a{
   color: #000000;
    text-decoration: none;
