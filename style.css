@@ -10,7 +10,7 @@ body{
 @media screen and (max-width: 500px) {
   .infos {
     position: sticky;
-      top: 97%;
+      top: 95%;
       z-index: 1;
      font-size: 20px;
   }
