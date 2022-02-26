@@ -7,6 +7,14 @@ body{
     z-index: 1;
    font-size: 20;
 }
+
+.infos2{
+  position: sticky;
+    top: 0;
+    z-index: 1;
+   font-size: 15;
+}
+
 @media screen and (max-width: 500px) {
   .infos {
     position: sticky;
