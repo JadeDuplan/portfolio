@@ -5,7 +5,7 @@ body{
   position: sticky;
     top: 97%;
     z-index: 1;
-   font-size: 12;
+   font-size: 15;
 }
 @media screen and (max-width: 500px) {
   .infos {
