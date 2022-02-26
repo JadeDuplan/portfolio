@@ -7,6 +7,15 @@ body{
     z-index: 1;
    font-size: 15;
 }
+@media screen and (max-width: 500px) {
+  .infos {
+    position: sticky;
+      top: 97%;
+      z-index: 1;
+     font-size: 20px;
+  }
+}
+
 .jade{
   font-family: 'Trebuchet MS', sans-serif;
   font-size: 40px;
